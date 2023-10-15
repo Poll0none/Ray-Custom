@@ -163,8 +163,8 @@ LoadingFrame.Version.Text = Release
 local request = (syn and syn.request) or (http and http.request) or http_request
 local CFileName = nil
 local CEnabled = false
-local Minimised = true
-local Hidden = true
+local Minimised = false
+local Hidden = false
 local Debounce = false
 local Notifications = Rayfield.Notifications
 
