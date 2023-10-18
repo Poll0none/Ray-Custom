@@ -24,14 +24,14 @@ local RayfieldLibrary = {
 		Default = {
 			TextFont = "Default",
 			    TextFont = "Default",
-    TextColor = Color3.fromRGB(250, 250, 250), -- Vibrant blue
+    TextColor = Color3.fromRGB(250, 250, 250), -- white(notifications)
     
-    Background = Color3.fromRGB(0, 0, 0), -- Black
+    Background = Color3.fromRGB(255, 0, 0), -- RED
     Topbar = Color3.fromRGB(0, 120, 180), -- Bright blue
     Shadow = Color3.fromRGB(0, 120, 180),
     
-    NotificationBackground = Color3.fromRGB(30, 30, 30),
-    NotificationActionsBackground = Color3.fromRGB(255, 215, 0), -- Vibrant gold
+    NotificationBackground = Color3.fromRGB(0, 120, 180),
+    NotificationActionsBackground = Color3.fromRGB(120, 30, 200), -- purplish
     
     TabBackground = Color3.fromRGB(50, 50, 50), -- Dark gray
     TabStroke = Color3.fromRGB(60, 60, 60), -- Dark gray
