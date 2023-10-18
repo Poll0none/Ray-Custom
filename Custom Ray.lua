@@ -24,18 +24,18 @@ local RayfieldLibrary = {
 		Default = {
 			TextFont = "Default",
 			    TextFont = "Default",
-    TextColor = Color3.fromRGB(40, 170, 210), -- Vibrant blue
+    TextColor = Color3.fromRGB(250, 250, 250), -- Vibrant blue
     
     Background = Color3.fromRGB(0, 0, 0), -- Black
     Topbar = Color3.fromRGB(0, 120, 180), -- Bright blue
-    Shadow = Color3.fromRGB(20, 20, 20),
+    Shadow = Color3.fromRGB(0, 120, 180),
     
     NotificationBackground = Color3.fromRGB(30, 30, 30),
     NotificationActionsBackground = Color3.fromRGB(255, 215, 0), -- Vibrant gold
     
     TabBackground = Color3.fromRGB(50, 50, 50), -- Dark gray
     TabStroke = Color3.fromRGB(60, 60, 60), -- Dark gray
-    TabBackgroundSelected = Color3.fromRGB(255, 0, 85), -- Vibrant pink
+    TabBackgroundSelected = Color3.fromRGB(0, 170, 255), -- Vibrant pink
     TabTextColor = Color3.fromRGB(240, 240, 240),
     SelectedTabTextColor = Color3.fromRGB(0, 0, 0), -- Black
     
@@ -54,7 +54,7 @@ local RayfieldLibrary = {
     ToggleDisabled = Color3.fromRGB(125, 125, 125), -- Light gray
     ToggleEnabledStroke = Color3.fromRGB(0, 200, 255), -- Even brighter blue
     ToggleDisabledStroke = Color3.fromRGB(65, 65, 65), -- Dark gray
-    ToggleEnabledOuterStroke = Color3.fromRGB(125, 125, 125), -- Light gray
+    ToggleEnabledOuterStroke = Color3.fromRGB(0, 170, 255), -- Light gray
     ToggleDisabledOuterStroke = Color3.fromRGB(80, 80, 80), -- Slightly darker gray
     
     InputBackground = Color3.fromRGB(30, 30, 30), -- Gray
@@ -183,7 +183,7 @@ function ChangeTheme(ThemeName)
 	end
 	
 	Rayfield.Main.BackgroundColor3 = SelectedTheme.Background
-	Rayfield.Main.Topbar.BackgroundColor3 = Color3.fromRGB(13, 27, 107)
+	Rayfield.Main.Topbar.BackgroundColor3 = SelectedTheme.Topbar
 	Rayfield.Main.Topbar.CornerRepair.BackgroundColor3 = SelectedTheme.Topbar
 	Rayfield.Main.Shadow.Image.ImageColor3 = SelectedTheme.Shadow
 	
