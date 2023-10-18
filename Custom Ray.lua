@@ -26,7 +26,7 @@ local RayfieldLibrary = {
 			    TextFont = "Default",
     TextColor = Color3.fromRGB(250, 250, 250), -- white(notifications)
     
-    Background = Color3.fromRGB(255, 0, 0), -- RED
+    Background = Color3.fromRGB(0, 120, 180), -- RED //NOTIFICATIONS
     Topbar = Color3.fromRGB(0, 120, 180), -- Bright blue
     Shadow = Color3.fromRGB(0, 120, 180),
     
@@ -39,7 +39,7 @@ local RayfieldLibrary = {
     TabTextColor = Color3.fromRGB(240, 240, 240),
     SelectedTabTextColor = Color3.fromRGB(0, 0, 0), -- Black
     
-    ElementBackground = Color3.fromRGB(35, 35, 35), -- Gray
+    ElementBackground = Color3.fromRGB(255, 35, 35), -- Gray
     ElementBackgroundHover = Color3.fromRGB(40, 40, 40), -- Slightly lighter gray
     SecondaryElementBackground = Color3.fromRGB(25, 25, 25), -- Darker gray
     ElementStroke = Color3.fromRGB(50, 50, 50), -- Dark gray
